@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ممیزی املاک</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="page_list">
+        <item>نقشه کل شهر</item>
+        <item>نقشه پلاک</item>
+        <item>آدرس</item>
+        <item>مشخصات اعیان</item>
+    </string-array>
+
+    <string-array name="groupcode_array">
+        <item>تاسیساتی</item>
+        <item>ساختمانی</item>
+    </string-array>
+    <string-array name="usetype_array">
+        <item>مسکونی</item>
+        <item>تجاری</item>
+        <item>آموزشی</item>
+        <item>اداری</item>
+        <item>بهداشتی</item>
+    </string-array>
+    <string-array name="usertype_array">
+        <item>مالک</item>
+        <item>مستاجر</item>
+    </string-array>
+
+    <string-array name="owntype_array">
+        <item>ملکی شخصی</item>
+        <item>استیجاری آستان قدس</item>
+        <item>استیجاری اوقافی</item>
+        <item>موقوفه عام</item>
+        <item>موقوفه خاص</item>
+        <item>شهرداری</item>
+        <item>سایر موارد</item>
+    </string-array>
+
+</resources>

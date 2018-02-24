@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_red_border"
+    android:weightSum="100">
+    <ImageView
+        android:id="@+id/cameraButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:src="@drawable/camera"/>
+    <ImageView
+        android:id="@+id/docButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:visibility="gone"
+        android:src="@drawable/doc_view"/>
+    <EditText
+        android:id="@+id/textRow"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="60"/>
+    <TextView
+        android:id="@+id/itemLabel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:textSize="13dp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:text="ردیف"/>
+</LinearLayout>
